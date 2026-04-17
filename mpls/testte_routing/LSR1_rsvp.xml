@@ -50,6 +50,12 @@
 				<lspid>300</lspid>
 
 				<bandwidth>100000</bandwidth>
+				<route>
+					<node>LSR1%routerId</node>
+					<lnode>LSR3%routerId</lnode>
+					<node>LSR7%routerId</node>
+					<node>LSR5%routerId</node>
+				</route>
 
 				<permanent>true</permanent>
 				<color>300</color>
